@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ecommerce-backend/cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ecommerce-backend/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ecommerce-backend/product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ecommerce-backend/user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />

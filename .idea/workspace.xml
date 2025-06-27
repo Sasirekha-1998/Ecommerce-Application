@@ -6,68 +6,21 @@
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
       <module name="cart-service" />
+      <module name="user-service" />
       <module name="order-service" />
       <module name="product-service" />
-      <module name="user-service" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ff9b1af-ecac-44cd-865b-cacb154a4415" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ecommerce/cart_service/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ecommerce/cart_service/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ecommerce/cart_service/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ecommerce/cart_service/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ecommerce/cart_service/dto/CartItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ecommerce/cart_service/entity/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ecommerce/cart_service/repository/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ecommerce/cart_service/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/config/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/dto/CartItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/dto/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/dto/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/dto/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/entity/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/repository/CartItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-backend/src/main/java/com/app/ecommerce/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerce/order_service/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerce/order_service/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerce/order_service/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerce/order_service/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerce/order_service/dto/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerce/order_service/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerce/order_service/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerce/order_service/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/ecommerce/product_service/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/ecommerce/product_service/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/ecommerce/product_service/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/ecommerce/product_service/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/ecommerce/product_service/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/ecommerce/product_service/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/ecommerce/product_service/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/ecommerce/product_service/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ecommerce/user_service/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ecommerce/user_service/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ecommerce/user_service/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ecommerce/user_service/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ecommerce/user_service/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ecommerce/user_service/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-backend/cart-service/src/main/java/com/ecommerce/cart_service/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-backend/cart-service/src/main/java/com/ecommerce/cart_service/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-backend/cart-service/src/main/java/com/ecommerce/cart_service/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-backend/cart-service/src/main/java/com/ecommerce/cart_service/repository/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-backend/cart-service/src/main/java/com/ecommerce/cart_service/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-backend/cart-service/src/main/java/com/ecommerce/cart_service/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-backend/cart-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-backend/cart-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +66,8 @@
     "last_opened_file_path": "/Users/sasirekhap/Documents/GitHub/Ecommerce-Application/user-service/src/main/java/com/ecommerce/user_service",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">

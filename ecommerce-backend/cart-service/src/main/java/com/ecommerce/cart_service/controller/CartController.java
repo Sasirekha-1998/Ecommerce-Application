@@ -1,7 +1,6 @@
 package com.ecommerce.cart_service.controller;
 
 import com.ecommerce.cart_service.dto.CartItemDTO;
-import com.ecommerce.cart_service.entity.CartItem;
 import com.ecommerce.cart_service.service.CartService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +23,6 @@ public class CartController {
     // ✅ 1. Add a product to the cart
     @PostMapping("/add")
     public ResponseEntity<CartItemDTO> addCart(@RequestBody CartItemDTO cartItemDTO) {
-        cartItemDTO.setAddedAt(LocalDateTime.now());
         CartItemDTO savedItem = cartService.addToCart(cartItemDTO);
         return ResponseEntity.ok(savedItem);
     }
@@ -36,26 +34,32 @@ public class CartController {
         return ResponseEntity.ok(items);
     }
 
-    // ✅ 3. Update quantity of a product in cart
-    @PutMapping("/update/{id}")
+    @PutMapping("/update")
     public ResponseEntity<CartItemDTO> updateQuantity(
-            @PathVariable Long id,
-            @RequestParam int quantity) {
-        CartItemDTO updatedItem = cartService.updateQuantity(id, quantity);
-        return ResponseEntity.ok(updatedItem);
+            @RequestParam Long userId,
+            @RequestParam Long productId,
+            @RequestParam Integer quantity) {
+
+        CartItemDTO updated = cartService.updateQuantity(userId, productId, quantity);
+        return ResponseEntity.ok(updated);
     }
 
     // ✅ 4. Delete a specific cart item
-    @DeleteMapping("/delete/{id}")
-    public ResponseEntity<String> deleteCartItem(@PathVariable Long id) {
-        cartService.deleteCartItem(id);
-        return ResponseEntity.ok("Cart item deleted successfully.");
+    @DeleteMapping("/delete")
+    public ResponseEntity<Void> deleteItem(
+            @RequestParam Long userId,
+            @RequestParam Long productId) {
+        cartService.deleteCartItem(userId, productId);
+        return ResponseEntity.noContent().build();
     }
 
+
     // ✅ 5. Clear all cart items for a user
-    @DeleteMapping("/clear/{userId}")
-    public ResponseEntity<String> clearCart(@PathVariable Long userId) {
-        cartService.clearCartByUserId(userId);
-        return ResponseEntity.ok("Cart cleared successfully for user: " + userId);
+    @DeleteMapping("/deleteAll")
+    public ResponseEntity<Void> deleteAllItems(
+            @RequestParam Long userId) {
+        cartService.deleteAllCartItems(userId);
+        return ResponseEntity.noContent().build();
     }
+
 }
